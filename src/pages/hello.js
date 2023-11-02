@@ -20,10 +20,10 @@ function Hello() {
             <Content />
             <Hero />
             <Jumbotron 
-                header="What is Life Coaching?" 
-                subheader="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, dolores?" 
-                body="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate praesentium odit, minima, explicabo cum mollitia facere hic ipsa officiis quo laboriosam deleniti? Rem aspernatur totam dignissimos debitis dicta provident ratione!" 
-                imgsrc={mindVector}
+                header="Supercharge Your Success!" 
+                subheader="Soar to new heights, achieve remarkable success, and ensure your path is as invigorating as it is rewarding." 
+                body="You've already conquered so much, but you're not settling for 'good enough.' You crave thriving, making a massive impact, and infusing more joy into your journey. You've got the talent and drive, but here's the catch: you want to win without wearing yourself and your team down. Welcome to our coaching services—your key to unleashing your full potential. We'll help you soar to new heights, achieve remarkable success, and ensure your path is as invigorating as it is rewarding.!" 
+                imgsrc={mindVector} 
             />
             <Purpose />
             <Features />
