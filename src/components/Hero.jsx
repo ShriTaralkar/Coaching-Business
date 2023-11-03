@@ -11,7 +11,7 @@ function Hero() {
         <button className="my-2 p-4 w-48 flex items-center justify-evenly bg-sky-blue text-grey capitalize rounded-full font-bold transition-all duration-300 hover:translate-x-2">Schedule a free discovery session<AiOutlineArrowRight /></button>
       </div>
       <div className="right flex max-w-1/2 p-4">
-        <img src={HeroImage} alt="" className="img-fluid" style={{ maxWidth: '70%', height: 'auto' }} />
+        <img src={HeroImage} alt="" className="img-fluid" style={{ maxWidth: '100%', height: '70' }} />
       </div>
     </section>
   )
