@@ -3,7 +3,7 @@ import { ImRocket } from '@react-icons/all-files/im/ImRocket';
 import { FaChartLine } from '@react-icons/all-files/fa/FaChartLine';
 import { GiTeacher } from '@react-icons/all-files/gi/GiTeacher'
 
-function Purpose({ header, subheader, body, imgsrc }) {
+function Mission({ header, subheader, body, imgsrc }) {
     return (
         <section className="m-auto p-8 text-center">
             <header className="m-3">
@@ -19,4 +19,4 @@ function Purpose({ header, subheader, body, imgsrc }) {
     )
 }
 
-export default Purpose
+export default Mission
