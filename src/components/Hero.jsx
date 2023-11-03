@@ -17,7 +17,8 @@ function Hero() {
             <button className="my-2 p-4 w-48 flex items-center justify-evenly bg-sky-blue text-grey capitalize rounded-full font-bold transition-all duration-300 hover:translate-x-2">Schedule a free discovery session<AiOutlineArrowRight /></button>
         </div>
         <div className="right flex max-w-1/2 p-4">
-            <img src="../images/Vertical_Doorway_Nature.jpg" alt="" className="img-fluid" />
+            {/* <img src="../images/Vertical_Doorway_Nature.jpg" alt="" className="img-fluid" /> */}
+            <img src={require("../images/Vertical_Doorway_Nature.jpg").default} alt="" className="img-fluid" />
         </div>
     </section>
   )
