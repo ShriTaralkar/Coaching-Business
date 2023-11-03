@@ -17,7 +17,7 @@ function Hero() {
         <button className="my-2 p-4 w-48 flex items-center justify-evenly bg-sky-blue text-grey capitalize rounded-full font-bold transition-all duration-300 hover:translate-x-2">Schedule a free discovery session<AiOutlineArrowRight /></button>
       </div>
       <div className="right flex-col justify-evenly items-center md:items-start p-4">
-        {/* <div className="content-container flex flex-col h-full"> */}
+        <div className="content-container flex flex-col h-full">
           <img className="img max-w-full flex-grow" src={HeroImage} alt="" className="img-fluid" />
         </div>
       </div>
