@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import Jumbotron from '../components/Jumbotron';
-import Mission from '../components/Purpose';
+import Mission from '../components/Mission';
 import Features from '../components/Features';
 import Contact from '../components/Contact';
 

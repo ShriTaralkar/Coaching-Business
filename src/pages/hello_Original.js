@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 /* import Content from '../components/Content'; */
 import Hero from '../components/Hero';
 import Jumbotron from '../components/Jumbotron';
-import Mission from '../components/Purpose';
+import Mission from '../components/Mission';
 import Features from '../components/Features';
 import Contact from '../components/Contact';
 
