@@ -6,7 +6,6 @@ import React from 'react';
 /* icon imports */
 import { AiOutlineArrowRight } from "@react-icons/all-files/ai/AiOutlineArrowRight";
 /* icon imports */
-/*import HeroImage from "../images/Vertical_Doorway_Nature.jpg"; */
 
 function Hero() {
   return (
@@ -14,11 +13,10 @@ function Hero() {
         <div className="left max-w-1/2 flex flex-col justify-evenly items-center md:items-start p-4 text-center md:text-left">
             <h1 className="text-6xl my-2 font-bold">Leading with Humility = Fostering Excellence.</h1>
             <p className="text-lg my-2 text-left">Inspiring Leaders Transform Organisations. Traditional, authoritarian leadership styles are no longer as effective, and organisations are increasingly recognizing the value of humble leadership qualities.</p>
-            <button className="my-2 p-4 w-48 flex items-center justify-evenly bg-sky-blue text-grey capitalize rounded-full font-bold transition-all duration-300 hover:translate-x-2">Schedule a free discovery session<AiOutlineArrowRight /></button>
+            <button className="my-2 p-4 w-48 flex items-center justify-evenly bg-sky-blue text-white capitalize rounded-full font-bold transition-all duration-300 hover:translate-x-2">Schedule a free discovery session<AiOutlineArrowRight /></button>
         </div>
         <div className="right flex max-w-1/2 p-4">
-            {/* <img src="../images/Vertical_Doorway_Nature.jpg" alt="" className="img-fluid" /> */}
-            <img src={require("../images/Vertical_Doorway_Nature.jpg").default} alt="" className="img-fluid" />
+            <img src="https://img.freepik.com/free-vector/isometric-soft-skills-concept-icon-with-three-characters-listening-their-mentor_1284-63039.jpg?w=740&t=st=1696941746~exp=1696942346~hmac=9418a5b4523388a8e3300d4050a06c271a708b21af7e914f8b8e1e3b6a2671ace" alt="" className="img-fluid" />
         </div>
     </section>
   )
