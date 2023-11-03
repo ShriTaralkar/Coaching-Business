@@ -16,7 +16,7 @@ function Hero() {
             <button className="my-2 p-4 w-48 flex items-center justify-evenly bg-sky-blue text-white capitalize rounded-full font-bold transition-all duration-300 hover:translate-x-2">Schedule a free discovery session<AiOutlineArrowRight /></button>
         </div>
         <div className="right flex max-w-1/2 p-4">
-            <img src="https://img.freepik.com/free-vector/isometric-soft-skills-concept-icon-with-three-characters-listening-their-mentor_1284-63039.jpg?w=740&t=st=1696941746~exp=1696942346~hmac=9418a5b4523388a8e3300d4050a06c271a708b21af7e914f8b8e1e3b6a2671ace" alt="" className="img-fluid" />
+            <img src= "src/images/Vertical_Doorway_Nature.jpg" alt="" className="img-fluid"/>
         </div>
     </section>
   )
